@@ -26,6 +26,14 @@
 
 ## 🛠 Installation
 
+### 🎥 Quick Preview
+
+
+<video width="100%" controls>
+  <source src="https://cdn.widget.bantech.ae/sdks/ios/demo/bantech-ai-chatbot-ios-sdk.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ### 1. Swift Package Manager (SPM)
 
 You can integrate **ChatBantechSDK** using Swift Package Manager:

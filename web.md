@@ -1,5 +1,5 @@
 
-# 🌐 Web Widget Integration
+# Bantech AI Chatbot Web Widget Integration
 
 This guide explains how to embed and configure **Bantech AI Chatbot Widget** on your website.  
 With just a few lines of code, you can add an interactive AI assistant to your pages.
