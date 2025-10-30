@@ -7,7 +7,7 @@ Welcome to the official integration wiki for **Bantech AI Chatbot Platform**, in
 ## ✨ Features
 
 - **Multi-Platform Support** — Seamless integration across  
-  [🌐 Web](./wiki/web.md), [📱 iOS](./wiki/ios.md), [🤖 Android](./wiki/android.md), and [💻 Desktop (Win & Mac)](./wiki/desktop.md).  
+  [🌐 Web](./wiki/web.md), [📱 iOS](./wiki/ios.md), [🤖 Android](./wiki/android.md), and 💻 Desktop ([Win](https://dl.ai-chatbot.bantech.ae/desktop/win/eMYAA-1.0.1.zip) & [Mac](https://dl.ai-chatbot.bantech.ae/desktop/mac/eMYAA-1.0.1.dmg)).  
 - **AI-Powered Conversations** — Smart, context-aware responses using the Bantech AI engine.  
 - **Customizable Chat Interface** — Easily theme and style the chatbot to match your brand.  
 - **Secure Authentication** — Supports both **guest sessions** and **authenticated users** via `cid` and `token`.  
