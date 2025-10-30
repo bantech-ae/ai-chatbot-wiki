@@ -98,6 +98,10 @@ To create and manage customer records, integrate with the following API endpoint
 POST /api/customers
 ```
 
+> 🔗 **API Reference:**  
+> For complete backend integration details, visit  
+> [`https://ai-chatbot.bantech.ae/docs/api#/operations/customers.store`](https://ai-chatbot.bantech.ae/docs/api#/operations/customers.store)
+
 **Example Request:**
 ```bash
 curl -X POST https://ai-chatbot.bantech.ae/api/customers \
