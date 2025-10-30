@@ -24,14 +24,20 @@
 
 ---
 
-## 🛠 Installation
 
-### 🎥 Quick Preview
+## 🎥 Quick Preview
+
+Watch the short technical walkthrough below to see how to install and configure ChatBantechSDK in your iOS project:
+
+> 🎥 This video covers adding the SDK via Swift Package Manager, initializing configuration, and launching the chatbot interface.
 
 [![Watch the demo](https://cdn.widget.bantech.ae/sdks/ios/demo/hqdefault.jpg)](https://cdn.widget.bantech.ae/sdks/ios/demo/bantech-ai-chatbot-ios-sdk.mp4)
 
+---
 
-### 1. Swift Package Manager (SPM)
+## 🛠 Installation
+
+### Swift Package Manager (SPM)
 
 You can integrate **ChatBantechSDK** using Swift Package Manager:
 
