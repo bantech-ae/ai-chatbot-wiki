@@ -16,6 +16,14 @@
 
 ---
 
+## 📦 Requirements
+
+- iOS 16.0+  
+- Swift 5.9+  
+- Xcode 15+  
+
+---
+
 ## 🛠 Installation
 
 ### 1. Swift Package Manager (SPM)
@@ -35,6 +43,8 @@ Once added, import the SDK:
 ```swift
 import ChatBantechSDK
 ```
+
+---
 
 ## ⚙️ Configuration
 
@@ -95,14 +105,6 @@ struct ContentView: View {
     }
 }
 ```
-
----
-
-## 📦 Requirements
-
-- iOS 16.0+  
-- Swift 5.9+  
-- Xcode 15+  
 
 ---
 
