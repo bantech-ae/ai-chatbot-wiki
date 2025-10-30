@@ -4,7 +4,7 @@
 This guide explains how to embed and configure **Bantech AI Chatbot Widget** on your website.  
 With just a few lines of code, you can add an interactive AI assistant to your pages.
 
-> ⚙️ **Before You Start:** Make sure your environment meets all [prerequisites](./README.md#-prerequisites).
+> ⚙️ **Before You Start:** Make sure your environment meets all [prerequisites](../README.md#-prerequisites).
 
 ---
 

@@ -2,7 +2,7 @@
 
 **ChatBantechSDK** is a Swift-based modular SDK designed to integrate a customizable chatbot interface into iOS applications. It provides a modern SwiftUI-based chat experience with web integration, background views, and clean configuration options.
 
-> ⚙️ **Before You Start:** Make sure your environment meets all [prerequisites](./README.md#-prerequisites).
+> ⚙️ **Before You Start:** Make sure your environment meets all [prerequisites](../README.md#-prerequisites).
 
 ---
 
