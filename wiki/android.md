@@ -7,6 +7,38 @@ It supports both guest and authenticated sessions, real-time socket communicatio
 
 ---
 
+## ✨ Features
+
+- **Lightweight Android Library** — Easy to integrate with minimal setup and dependencies.  
+- **WebView Chat Interface** — Embeds the full-featured Bantech chat system directly inside your app.  
+- **Custom Configuration** — Supports dynamic setup using `cid`, `token`, `apiBaseUrl`, and WebSocket options.  
+- **Real-Time Messaging** — Integrated with Pusher for instant updates and events.  
+- **Guest & Authenticated Sessions** — Connect both guest users and logged-in customers securely.  
+- **Custom Host Support** — Override the default WebSocket and API endpoints for testing or private environments.  
+- **Modular Design** — Compatible with any architecture or UI layout using `FrameLayout` or custom containers.  
+- **Full SDK Logging** — Built-in debug logs for connection, authentication, and response tracking.  
+- **Production-Ready** — Optimized for performance and compatible with Android 8.0 (API 26) and above.  
+
+---
+
+## ⚙️ Requirements
+
+To use the **Bantech Chat Library**, ensure your development environment meets the following:
+
+- **Android Studio** — version **Giraffe (2022.3.1)** or later  
+- **Android SDK** — **API level 26 (Android 8.0 Oreo)** or higher  
+- **Kotlin** — version **1.8.0** or later  
+- **Gradle Plugin** — version **8.0.0** or higher  
+- **Internet Permission** — must be enabled in your `AndroidManifest.xml`  
+- **Valid Bantech Credentials** — includes:
+  - `cid` — Customer ID from your Bantech account  
+  - `token` — Customer access token  
+- **API Base URL** — CORS-enabled endpoint (e.g. `https://chat.bantech.ae`)  
+- **WebSocket (Pusher) App Key** — required for real-time communication  
+
+
+---
+
 ## ⚙️ Installation
 
 ### 1️⃣ Add repository sources
