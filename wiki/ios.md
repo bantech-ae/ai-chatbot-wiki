@@ -74,7 +74,7 @@ struct MyApp: App {
     func setupChatSDK() {
         Task {
             let config = ChatBantechConfgration(
-                apiBaseUrl: "https://chat.emyaa.com",
+                apiBaseUrl: "https://chat.bantech.ae",
                 cid: "YOUR_CLIENT_ID",
                 token: "YOUR_AUTH_TOKEN"
             )

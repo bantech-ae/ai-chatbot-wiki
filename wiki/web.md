@@ -21,6 +21,15 @@ With just a few lines of code, you can add an interactive AI assistant to your p
 
 ---
 
+> 🔔 **Note:**  
+> The **latest version** of the widget is always available at:  
+> [`https://cdn.widget.bantech.ae/sdks/js/latest/ai-chatbot-widget.js`](https://cdn.widget.bantech.ae/sdks/js/latest/ai-chatbot-widget.js)  
+>  
+> Bantech also provides **partner-specific variants**, such as **eMYAA**, available at:  
+> [`https://cdn.widget.bantech.ae/sdks/js/v1.0.9-emyaa/ai-chatbot-widget.js`](https://cdn.widget.bantech.ae/sdks/js/v1.0.9-emyaa/ai-chatbot-widget.js)
+
+---
+
 ## 🚀 Integration Guide
 
 Follow these steps to add the AI Chatbot widget to your website:
@@ -30,7 +39,7 @@ Follow these steps to add the AI Chatbot widget to your website:
 Add the following snippet **just before the closing `</body>` tag** of your HTML file to display the AI Chatbot widget:
 
 ```html
-<script type="module" src="https://cdn.widget.bantech.ae/v1.0.8/ai-chatbot-widget.js" async></script>
+<script type="module" src="https://cdn.widget.bantech.ae/sdks/js/v1.0.9/ai-chatbot-widget.js" async></script>
 <div class="bantech-ai-chatbot-widget"></div>
 ```
 
@@ -46,7 +55,7 @@ You can initialize the widget in two ways — depending on whether the user is a
 For guest visitors, you can provide basic user information using `data` attributes:
 
 ```html
-<script type="module" src="https://cdn.widget.bantech.ae/v1.0.8/ai-chatbot-widget.js" async></script>
+<script type="module" src="https://cdn.widget.bantech.ae/sdks/js/v1.0.9/ai-chatbot-widget.js" async></script>
 <div 
   class="bantech-ai-chatbot-widget"
   data-client-email="guest@bantech.ae"
@@ -65,7 +74,7 @@ For guest visitors, you can provide basic user information using `data` attribut
 For authenticated users, use **unique identifiers** and **access tokens** generated via your backend integration.
 
 ```html
-<script type="module" src="https://cdn.widget.bantech.ae/v1.0.8/ai-chatbot-widget.js" async></script>
+<script type="module" src="https://cdn.widget.bantech.ae/sdks/js/v1.0.9/ai-chatbot-widget.js" async></script>
 <div 
   class="bantech-ai-chatbot-widget"
   data-client-uid="USER_ID"
@@ -110,7 +119,7 @@ curl -X POST https://ai-chatbot.bantech.ae/api/customers \
 Use these returned values (`id` and `token`) in your chatbot widget as shown in **Option 2**:
 
 ```html
-<script type="module" src="https://cdn.widget.bantech.ae/v1.0.8/ai-chatbot-widget.js" async></script>
+<script type="module" src="https://cdn.widget.bantech.ae/sdks/js/v1.0.9/ai-chatbot-widget.js" async></script>
 <div 
   class="bantech-ai-chatbot-widget"
   data-client-uid="USER_ID"
