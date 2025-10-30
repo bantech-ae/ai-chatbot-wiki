@@ -50,7 +50,7 @@ Choose your platform below to get started:
 [Read the iOS guide →](./wiki/ios.md)
 
 ### 📱 Android Integration
-[Read the Android guide →](./android.md)
+[Read the Android guide →](./wiki/android.md)
 
 ---
 
