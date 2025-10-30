@@ -1,4 +1,4 @@
-# Bantech AI Chatbot Android SDK - `com.bantech:chatlib`
+# Bantech AI Chatbot Android SDK - `BantechChatLibrary`
 
 The **Bantech Chat Library** provides an easy way to integrate the Bantech AI Chatbot into your Android app using a lightweight `WebView` component.  
 It supports both guest and authenticated sessions, real-time socket communication, and secure API integration.
