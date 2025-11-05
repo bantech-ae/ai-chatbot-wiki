@@ -87,6 +87,7 @@ In your **`activity_main.xml`**, define a container for the chat view:
 
 ```kotlin
 import android.os.Bundle
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.bantech.chat.BantechChatLibrary
 import com.example.myapplication.databinding.ActivityMainBinding
