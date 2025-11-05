@@ -129,9 +129,10 @@ class MainActivity : AppCompatActivity() {
 
 ## 🧠 Notes
 
-- `cid` and `token` must be valid credentials from your Bantech backend integration.  
-- `wsAppKey`, `wsHost`, and `apiBaseUrl` can be overridden for non-production environments.  
-- Use `mavenLocal()` only if you're building and testing the library locally before publishing.
+- `cid` and `token` must be valid credentials from your Bantech backend integration.
+- `wsAppKey`, `wsHost`, and `apiBaseUrl` can be overridden for non-production environments.
+- The `apiBaseUrl` can point to either the default Bantech endpoint (`https://chat.bantech.ae`) or a partner-specific domain (e.g., `https://chat.emyaa.com`).
+- The SDK is hosted on JitPack. Make sure `maven { url = uri("https://jitpack.io") }` is added in your `settings.gradle.kts`.
 
 ### 🔗 How to Get `cid` and `token`
 
