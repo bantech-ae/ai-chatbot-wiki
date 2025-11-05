@@ -36,21 +36,20 @@ To use the **Bantech Chat Library**, ensure your development environment meets t
 - **API Base URL** — CORS-enabled endpoint (e.g. `https://chat.bantech.ae`)  
 - **WebSocket (Pusher) App Key** — required for real-time communication  
 
-
 ---
 
 ## ⚙️ Installation
 
 ### 1️⃣ Add repository sources
 
-In your **`settings.gradle`**, make sure to include:
+In your **`settings.gradle.kts`**, make sure to include at the end of repositories:
 
 ```kotlin
 dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
-        google()
         mavenCentral()
-        mavenLocal() // Required if you're building locally
+        maven { url = uri("https://jitpack.io") }
     }
 }
 ```
@@ -59,11 +58,11 @@ dependencyResolutionManagement {
 
 ### 2️⃣ Add dependency
 
-In your **`app/build.gradle`**, add:
+In your **`app/build.gradle.kts`**, add:
 
 ```kotlin
 dependencies {
-    implementation("com.bantech:chatlib:1.0.3")
+    implementation("com.github.bantech-ae:ai-chatbot-mobile-sdk-android:1.0.11")
 }
 ```
 
@@ -105,8 +104,8 @@ class MainActivity : AppCompatActivity() {
 
         // ✅ Create dynamic chat config with custom host & API base URL
         val config = BantechChatLibrary.config(
-            cid = "YOUR_CLIENT_ID",
-            token = "YOUR_AUTH_TOKEN"
+            "YOUR_CLIENT_ID",
+            "YOUR_AUTH_TOKEN"
         ) {
             wsAppKey("YOUR_PUSHER_APP_KEY")
             wsHost("ws.bantech.ae")
@@ -120,7 +119,8 @@ class MainActivity : AppCompatActivity() {
         val chatView = BantechChatLibrary.createChatView(this, config)
 
         // ✅ Add chat view to your container
-        binding.container.addView(chatView)
+        val container = findViewById<android.widget.FrameLayout>(R.id.container)
+        container?.addView(chatView)
     }
 }
 ```
@@ -129,10 +129,10 @@ class MainActivity : AppCompatActivity() {
 
 ## 🧠 Notes
 
-- `cid` and `token` must be valid credentials from your Bantech backend integration.  
-- `wsAppKey`, `wsHost`, and `apiBaseUrl` can be overridden for non-production environments.  
-- Use `mavenLocal()` only if you're building and testing the library locally before publishing.
-
+- `cid` and `token` must be valid credentials from your Bantech backend integration.
+- `wsAppKey`, `wsHost`, and `apiBaseUrl` can be overridden for non-production environments.
+- The `apiBaseUrl` can point to either the default Bantech endpoint (`https://chat.bantech.ae`) or a partner-specific domain (e.g., `https://chat.emyaa.com`).
+- The SDK is hosted on JitPack. Make sure `maven { url = uri("https://jitpack.io") }` is added in your `settings.gradle.kts`.
 
 ### 🔗 How to Get `cid` and `token`
 
